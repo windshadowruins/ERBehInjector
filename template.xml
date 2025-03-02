@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hktagfile version="3">
+  <object id="_OBJECTID0" typeid="type117">
+    <!-- hkbStateMachine::StateInfo -->
+    <record>
+      <!-- hkbStateMachine::StateInfo -->
+      <field name="propertyBag">
+        <array count="0" elementtypeid="type15">
+          <!-- ArrayOf hkDefaultPropertyBag -->
+        </array>
+      </field>
+      <field name="variableBindingSet">
+        <pointer id="object0" />
+      </field>
+      <field name="listeners">
+        <array count="0" elementtypeid="type125">
+          <!-- ArrayOf T*< hkbStateListener > -->
+        </array>
+      </field>
+      <field name="enterNotifyEvents">
+        <pointer id="object0" />
+      </field>
+      <field name="exitNotifyEvents">
+        <pointer id="object0" />
+      </field>
+      <field name="transitions">
+        <pointer id="object0" />
+      </field>
+      <field name="generator">
+        <pointer id="_OBJECTID1" />
+      </field>
+      <field name="name">
+        <string value="_NAME" />
+      </field>
+      <field name="stateId">
+        <integer value="_STATEID" />
+      </field>
+      <field name="probability">
+        <real dec="1" hex="#3ff0000000000000" />
+      </field>
+      <field name="enable">
+        <bool value="true" />
+      </field>
+    </record>
+  </object>
+  <object id="_OBJECTID1" typeid="type299">
+    <!-- CustomManualSelectorGenerator -->
+    <record>
+      <!-- CustomManualSelectorGenerator -->
+      <field name="propertyBag">
+        <array count="0" elementtypeid="type15">
+          <!-- ArrayOf hkDefaultPropertyBag -->
+        </array>
+      </field>
+      <field name="variableBindingSet">
+        <pointer id="object0" />
+      </field>
+      <field name="userData">
+        <integer value="_USERDATA" />
+      </field>
+      <field name="name">
+        <string value="_NAME_CMSG" />
+      </field>
+      <field name="generators">
+        <array count="1" elementtypeid="type43">
+          <!-- ArrayOf T*< hkbGenerator > -->
+          <pointer id="_OBJECTID2" />
+        </array>
+      </field>
+      <field name="offsetType">
+        <integer value="0" />
+        <!-- OffsetNone -->
+      </field>
+      <field name="animId">
+        <integer value="_ANIMID" />
+      </field>
+      <field name="animeEndEventType">
+        <integer value="2" />
+        <!-- FireIdleEvent -->
+      </field>
+      <field name="enableScript">
+        <bool value="true" />
+      </field>
+      <field name="enableTae">
+        <bool value="true" />
+      </field>
+      <field name="changeTypeOfSelectedIndexAfterActivate">
+        <integer value="0" />
+        <!-- NONE -->
+      </field>
+      <field name="generatorChangedTransitionEffect">
+        <pointer id="object0" />
+      </field>
+      <field name="checkAnimEndSlotNo">
+        <integer value="-1" />
+      </field>
+      <field name="replanningAI">
+        <integer value="0" />
+        <!-- Enable -->
+      </field>
+      <field name="rideSync">
+        <integer value="0" />
+        <!-- RideSync_Disable -->
+      </field>
+    </record>
+  </object>
+  <object id="_OBJECTID2" typeid="type320">
+    <!-- hkbClipGenerator -->
+    <record>
+      <!-- hkbClipGenerator -->
+      <field name="propertyBag">
+        <array count="0" elementtypeid="type15">
+          <!-- ArrayOf hkDefaultPropertyBag -->
+        </array>
+      </field>
+      <field name="variableBindingSet">
+        <pointer id="object0" />
+      </field>
+      <field name="userData">
+        <integer value="0" />
+      </field>
+      <field name="name">
+        <string value="_NAME" />
+      </field>
+      <field name="animationName">
+        <string value="_ANIMNAME" />
+      </field>
+      <field name="triggers">
+        <pointer id="object0" />
+      </field>
+      <field name="userPartitionMask">
+        <integer value="0" />
+      </field>
+      <field name="cropStartAmountLocalTime">
+        <real dec="0" hex="#0" />
+      </field>
+      <field name="cropEndAmountLocalTime">
+        <real dec="0" hex="#0" />
+      </field>
+      <field name="startTime">
+        <real dec="0" hex="#0" />
+      </field>
+      <field name="playbackSpeed">
+        <real dec="1" hex="#3ff0000000000000" />
+      </field>
+      <field name="enforcedDuration">
+        <real dec="0" hex="#0" />
+      </field>
+      <field name="userControlledTimeFraction">
+        <real dec="0" hex="#0" />
+      </field>
+      <field name="mode">
+        <integer value="0" />
+        <!-- MODE_SINGLE_PLAY -->
+      </field>
+      <field name="flags">
+        <integer value="0" />
+      </field>
+      <field name="animationInternalId">
+        <integer value="3170" />
+      </field>
+    </record>
+  </object>
+    <record>
+    <!-- hkbStateMachine::TransitionInfo -->
+    <field name="triggerInterval">
+        <record>
+        <!-- hkbStateMachine::TimeInterval -->
+        <field name="enterEventId">
+            <integer value="-1" />
+        </field>
+        <field name="exitEventId">
+            <integer value="-1" />
+        </field>
+        <field name="enterTime">
+            <real dec="0" hex="#0" />
+        </field>
+        <field name="exitTime">
+            <real dec="0" hex="#0" />
+        </field>
+        </record>
+    </field>
+    <field name="initiateInterval">
+        <record>
+        <!-- hkbStateMachine::TimeInterval -->
+        <field name="enterEventId">
+            <integer value="-1" />
+        </field>
+        <field name="exitEventId">
+            <integer value="-1" />
+        </field>
+        <field name="enterTime">
+            <real dec="0" hex="#0" />
+        </field>
+        <field name="exitTime">
+            <real dec="0" hex="#0" />
+        </field>
+        </record>
+    </field>
+    <field name="transition">
+        <pointer id="object195" />
+    </field>
+    <field name="condition">
+        <pointer id="object0" />
+    </field>
+    <field name="eventId">
+        <integer value="_EVENTID" />
+    </field>
+    <field name="toStateId">
+        <integer value="_TOSTATEID" />
+    </field>
+    <field name="fromNestedStateId">
+        <integer value="0" />
+    </field>
+    <field name="toNestedStateId">
+        <integer value="0" />
+    </field>
+    <field name="priority">
+        <integer value="0" />
+    </field>
+    <field name="flags">
+        <integer value="3584" />
+        <!-- FLAG_ALLOW_SELF_TRANSITION_BY_TRANSITION_FROM_ANY_STATE, FLAG_IS_GLOBAL_WILDCARD, FLAG_IS_LOCAL_WILDCARD -->
+    </field>
+    </record>
+</hktagfile>
