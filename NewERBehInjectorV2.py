@@ -312,7 +312,7 @@ def open_ui():
     root = tk.Tk()
     root.title("Animation Names Editor")
     tk.Label(root, text="Select State Machine Parent:", font=("Arial", 12)).pack(pady=5)
-    state_machine_combo = ttk.Combobox(root, values=["GuardDamage_SM", "Attack_SM", "AttackRight_SM", "Bonfire_SM", "Throw_SM", "MagicFireRight_SM", "Guard_SM", "Evasion_SM", "Event_SM", "SwordArts_SM", "EventGesture_SM", "Gesture_SM", "TalkEvent_SM"], font=("Arial", 12), state="readonly")
+    state_machine_combo = ttk.Combobox(root, values=["GuardDamage_SM", "Attack_SM", "AttackRight_SM", "Bonfire_SM", "Throw_SM", "SAMagic_SM", "Guard_SM", "Evasion_SM", "Event_SM", "SwordArts_SM", "EventGesture_SM", "Gesture_SM", "TalkEvent_SM"], font=("Arial", 12), state="readonly")
     state_machine_combo.pack(pady=5)
     state_machine_combo.current(0)
     tk.Label(root, text="Enter HKX numbers (one per line):", font=("Arial", 12)).pack(pady=5)
